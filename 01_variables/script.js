@@ -2,6 +2,16 @@
 
 // Declaration of variables
 
+// Naming Conventions
+// - Only letters, numbers, underscores and dollar signs
+// - Can't start with a number
+
+// Multi-Word Formatting
+// firstName = camelCase
+// first_name = underscore
+// FirstName = PascalCase
+// firstname = lowercase
+
 // string
 var name = 'John';
 console.log(name);
