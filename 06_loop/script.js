@@ -20,6 +20,10 @@ for (let i = 0; i < vacationSpots.length; i++) {
   console.log(vacationSpots[i]);
 }
 
+for (const element of vacationSpots) {
+  console.log(element);
+}
+
 // ---- The While Loop ----
 // A for loop that prints 1, 2, and 3
 for (let counterOne = 1; counterOne < 4; counterOne++) {

@@ -27,9 +27,13 @@ let seasons = ['Winter', 'Spring', 'Summer', 'Fall'];
 
 seasons[3] = 'Autumn';
 
+console.log(seasons);
+
 let groceryList = ['bread', 'tomatoes', 'milk'];
 
 groceryList[1] = 'avocados';
+
+console.log(groceryList);
 
 // The .length property
 const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
@@ -55,6 +59,23 @@ chores.pop();
 console.log(chores);
 
 // More Array Methods
+
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+// Inserts at index 1
+console.log(months);
+// Expected output: Array ["Jan", "Feb", "March", "April", "June"]
+
+months.splice(4, 1, 'May');
+// Replaces 1 element at index 4
+console.log(months);
+// Expected output: Array ["Jan", "Feb", "March", "April", "May"]
+
+// Remove 2 element starting from index 1
+months.splice(1, 2);
+// Expected output: ["Jan", "April", "May"]
+console.log(months);
+
 const groceryList2 = [
   'orange juice',
   'bananas',

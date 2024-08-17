@@ -26,6 +26,13 @@ console.log(planetArray);
 const isActive = spaceshipAlpha['Active Mission'];
 console.log(isActive);
 
+// Loop through an object
+for (const key in spaceshipAlpha) {
+  console.log(key);
+  console.log(spaceshipAlpha[key]);
+  console.log(key + ': ' + spaceshipAlpha[key]);
+}
+
 // Property Assignment
 let spaceshipBeta = {
   'Fuel Type': 'Turbo Fuel',
