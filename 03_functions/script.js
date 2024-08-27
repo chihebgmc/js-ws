@@ -22,7 +22,7 @@ function greeting(name = 'stranger') {
   console.log('Hello, ' + name + '!');
 }
 
-greeting('Nick'); // Output: Hello, Nick!
+greeting('Jack'); // Output: Hello, Jack!
 greeting(); // Output: Hello, stranger!
 
 // Return
